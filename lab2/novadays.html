@@ -8,30 +8,27 @@
         text-align: center;
         font-size: 22px;
       }
-      #mainlink {
+      a:first-of-type {
         font-style: italic;
       }
-      #list {
+      #list, #dessert {
         text-align: center;
       }
       ul.outerlist>li:nth-child(odd) {
         background-color: lightgray;
       }
-      #dessert {
-        text-align: center;
-      }
       ol.outerlist>li:nth-child(3):hover, li:nth-child(5):hover {
         cursor:pointer;
         text-decoration: underline;
       }
-      ol li:nth-child(4) {
+      ol.outerlist>li:nth-child(4) {
         background-color: aqua;
       }
     </style>
   </head>
   <body>
     <h1>Сьогодення Колесник Валентини Дмитрівни</h1>
-    <a id="mainlink" href="index.html" title="main">Назад на головну</a>
+    <a href="index.html" title="main">Назад на головну</a>
     <h2 id="list">Мій типовий список покупок</h2>
     <ul class="outerlist">
       <li>Фрукти
@@ -70,7 +67,8 @@
         <ol>
           <li>Яйця ретельно помийте</li>
           <li>Білки відокремте в чистий сухий посуд</li>
-          <li>Місткість з білками затягніть харчовою плівкою і поставте в холодильник.</li>
+          <li>Місткість з білками затягніть харчовою плівкою.</li>
+          <li>Поставте в холодильник</li>
         </ol>
       </li>
       <li>До жовтків засипте цукор і почніть збивати. Збивати потрібно довго (більше ніж 5 хвилин). Дочекайтеся поки маса стане схожою на густий майже білий крем.</li>

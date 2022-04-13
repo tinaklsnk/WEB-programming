@@ -8,15 +8,21 @@
         text-align: center;
         font-size: 22px;
       }
-      #mainlink {
+      a:first-of-type {
         font-style: italic;
+      }
+      a.ontop {
+        font-weight: bold;
+      }
+      a:last-of-type {
+        text-transform: uppercase;
       }
       #top {
         text-align: center;
       }
       .button {
         display: block;
-        width: 150px;
+        width: 180px;
         text-decoration: none;
         text-align: center;
         background-color: blue;
@@ -59,17 +65,11 @@
        background-color: black; 
        color: white;
       }
-      a.ontop {
-        font-weight: bold;
-      }
-      #up {
-        text-transform: uppercase;
-      }
     </style>
   </head>
   <body>
     <h1 id="bio">Автобіографія Колесник Валентини Дмитрівни</h1>
-    <a id="mainlink" href="index.html" title="main">Назад на головну</a>
+    <a href="index.html" title="main">Назад на головну</a>
     <h3 id="top"><a name="top">Зміст</a></h3>
     <ul>
     <li><a class="button" href="#section1">Базова інформація</a></li>
@@ -121,6 +121,6 @@
     </article>
     <a class="ontop" href="#top">до змісту</a>
     <hr>
-    <a id="up" href="#bio">Уверх</a>
+    <a href="#bio">Уверх</a>
   </body>
 </html>
