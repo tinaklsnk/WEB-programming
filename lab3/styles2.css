@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  height: max-content;
+}
+
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+}
+section {
+  display: flex;
+  justify-content: stretch;
+}
+article {
+  background-color: #d5e8d4;
+  border: 3px solid black;
+  font-size: 16px;
+  margin: 1% 2%;
+  flex: 1;
+}
+div {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  margin: 0%;
+}
+p {
+  flex-flow: column wrap;
+  flex: 1;
+  padding: 0px 10px;
+}
+h3 {
+  margin-top: 0%;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  border: 3px solid black;
+  border-top: none;
+  border-right: none;
+  padding-top: 5px;
+}
+#cap1 {
+  font-weight: bold;
+  background-color: #f0a30a;
+}
+
+#cap2 {
+  font-weight: bold;
+  color: white;
+  background-color: #d80073;
+}
+
+#cap3 {
+  font-weight: bold;
+  background-color: #fad9d5;
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  span {
+    padding-top: 5px;
+  }
+}
+
+/*tablet*/
+@media (min-width: 769px) and (max-width: 992px) {
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1%;
+  }
+  article {
+    flex: 1 350px;
+    margin: 1%;
+  }
+}
+
+/*desktop*/
+@media (min-width: 993px) {
+  section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  article {
+    margin: 1%;
+  }
+}
