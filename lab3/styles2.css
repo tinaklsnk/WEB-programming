@@ -1,14 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
 h1 {
   width: 200px;
   margin-right: auto;
   margin-left: auto;
-  height: max-content;
 }
-
 body {
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,13 +47,11 @@ h3 {
   font-weight: bold;
   background-color: #f0a30a;
 }
-
 #cap2 {
   font-weight: bold;
   color: white;
   background-color: #d80073;
 }
-
 #cap3 {
   font-weight: bold;
   background-color: #fad9d5;
@@ -65,18 +60,13 @@ h3 {
 /*mobile*/
 @media (max-width: 768px) {
   section {
-    display: flex;
     flex-direction: column;
-  }
-  span {
-    padding-top: 5px;
   }
 }
 
 /*tablet*/
 @media (min-width: 769px) and (max-width: 992px) {
   section {
-    display: flex;
     flex-flow: row wrap;
     margin: 1%;
   }
@@ -89,7 +79,6 @@ h3 {
 /*desktop*/
 @media (min-width: 993px) {
   section {
-    display: flex;
     flex-direction: row;
     margin-left: 1%;
     margin-right: 1%;

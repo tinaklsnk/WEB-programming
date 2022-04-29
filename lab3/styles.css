@@ -1,34 +1,29 @@
 * {
   box-sizing: border-box;
 }
-
 h1 {
   width: 200px;
   margin-right: auto;
   margin-left: auto;
   height: max-content;
 }
-
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   min-width: 320px;
 }
-
 div {
   background-origin: padding-box;
   position: relative;
   float: none;
   height: max-content;
 }
-
 p {
   background-color: #d5e8d4;
   border: 3px solid black;
   font-size: 16px;
   position: relative;
 }
-
 span {
   position: absolute;
   border: 2px solid black;
@@ -37,7 +32,6 @@ span {
   right: 0px;
   top: 0px
 }
-
 #cap1 {
   height: 30px;
   width: 100px;
@@ -46,7 +40,6 @@ span {
   font-weight: bold;
   background-color: #f0a30a;
 }
-
 #cap2 {
   height: 30px;
   width: 100px;
@@ -56,7 +49,6 @@ span {
   color: white;
   background-color: #d80073;
 }
-
 #cap3 {
   height: 30px;
   width: 100px;
@@ -96,20 +88,17 @@ span {
     margin-top: 0px;
     margin-bottom: 3.33%;
   }
-
   #p1 {
     width: 45%;
     margin-right: 3.33%;
     margin-left: 3.33%;
     height: 50%;
   }
-
   #p2 {
     width: 45%;
     margin-right: 3.33%;
     height: 50%;
   }
-
   #p3 {
     margin-right: 3.33%;
     margin-left: 3.33%;
@@ -129,7 +118,6 @@ span {
     padding: 50px 20px;
     height: 90%;
   }
-
   #p1 {
     margin-right: 2.5%;
     margin-left: 2.5%;
@@ -139,6 +127,5 @@ span {
   }
   #p3 {
     margin-right: 2.5%;
-    
   }
 }
