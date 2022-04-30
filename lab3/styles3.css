@@ -59,6 +59,9 @@ h3.inner {
 p.inner {
   grid-column: 1 / 3;
 }
+#links {
+  margin: 10px;
+}
 
 /*mobile*/
 @media (max-width: 768px) {
