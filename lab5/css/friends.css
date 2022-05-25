@@ -1,0 +1,58 @@
+body {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+table, th, td { 
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+ } 
+ th, td {
+   padding: 10px;
+ }
+ h1 {
+   text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+ }
+ a:first-of-type {
+   font-style: italic;
+ }
+ th {
+   text-align: center;
+   background-color: green;
+   color: orange;
+   font-weight: bold;
+ }
+ tr:nth-child(odd) {
+   background-color: lightgrey;
+ }
+ td:nth-child(5) {
+   text-align: right;
+ }
+
+ /*mobile*/
+@media (max-width: 768px) {
+  th {
+    font-size: 110%;
+  }
+}
+
+/*tablet*/
+@media (min-width: 769px) and (max-width: 992px) {
+  th {
+    font-size: 120%;
+  }
+  td {
+    font-size: 110%;
+  }
+}
+
+/*desktop*/
+@media (min-width: 993px) {
+  th {
+    font-size: 130%;
+  }
+  td {
+    font-size: 120%;
+  }
+}
