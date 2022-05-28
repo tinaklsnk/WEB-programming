@@ -1,11 +1,8 @@
 * {
   box-sizing: border-box;
 }
-/*body {
-  max-width: 100%;
-  overflow-x: hidden;
-}*/
-div.col {
+
+p {
   text-align: justify;
 }
 .inner {
@@ -17,6 +14,7 @@ div.col {
   .nav-link {
     visibility: visible;
   }
+
 }
 
 /*tablet*/
