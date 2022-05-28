@@ -1,6 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+/*body {
+  max-width: 100%;
+  overflow-x: hidden;
+}*/
 div.col {
-  background-color: #d5e8d4;
   text-align: justify;
+}
+.inner {
+  background-color: #d5e8d4;
 }
 
 /*mobile*/
