@@ -1,0 +1,25 @@
+div.col {
+  background-color: #d5e8d4;
+  text-align: justify;
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+  .nav-link {
+    visibility: visible;
+  }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-link {
+    visibility: hidden;
+  }
+}
+
+/*desktop*/
+@media (min-width: 992px) {
+  .nav-link {
+    visibility: hidden;
+  }
+}
