@@ -1,0 +1,39 @@
+{
+  "catalog_items": [
+    {
+      "id": 11,
+      "short_name": "A-1",
+      "name": "Item A-1",
+      "description": "One",
+      "price": 150,
+      "amount_retail": null,
+      "amount_wholesale": "5+ pos"
+    },
+    {
+      "id": 12,
+      "short_name": "A-2",
+      "name": "Item A-2",
+      "description": "Two",
+      "price": 200
+    },
+    {
+      "id": 13,
+      "short_name": "A-3",
+      "name": "Item A-3",
+      "description": "Three",
+      "price": 250
+    },
+    {
+      "id": 14,
+      "short_name": "A-4",
+      "name": "Item A-4",
+      "description": "Four",
+      "price": 300
+    }
+  ],
+  "category": {
+    "short_name": "A",
+    "name": "Category-1",
+    "special_instructions": "Some important info Categories-1"
+  }
+}

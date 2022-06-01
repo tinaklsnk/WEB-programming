@@ -1,0 +1,37 @@
+{
+  "catalog_items": [
+    {
+      "id": 11,
+      "short_name": "D-1",
+      "name": "Item D-1",
+      "description": "One",
+      "price": 852
+    },
+    {
+      "id": 12,
+      "short_name": "D-2",
+      "name": "Item D-2",
+      "description": "Two",
+      "price": 74
+    },
+    {
+      "id": 13,
+      "short_name": "D-3",
+      "name": "Item D-3",
+      "description": "Three",
+      "price": 123
+    },
+    {
+      "id": 14,
+      "short_name": "D-4",
+      "name": "Item D-4",
+      "description": "Four",
+      "price": 215
+    }
+  ],
+  "category": {
+    "short_name": "D",
+    "name": "Category-4",
+    "special_instructions": "Some important info Categories-4"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "catalog_items": [
+    {
+      "id": 11,
+      "short_name": "C-1",
+      "name": "Item C-1",
+      "description": "One",
+      "price": 120
+    },
+    {
+      "id": 12,
+      "short_name": "C-2",
+      "name": "Item C-2",
+      "description": "Two",
+      "price": 725
+    },
+    {
+      "id": 13,
+      "short_name": "C-3",
+      "name": "Item C-3",
+      "description": "Three",
+      "price": 455
+    },
+    {
+      "id": 14,
+      "short_name": "C-4",
+      "name": "Item C-4",
+      "description": "Four",
+      "price": 505
+    }
+  ],
+  "category": {
+    "short_name": "C",
+    "name": "Category-3",
+    "special_instructions": "Some important info Categories-3"
+  }
+}
