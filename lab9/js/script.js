@@ -9,8 +9,8 @@
         var categoryHtml = "snippets/category-snippet.html";
 
         var catalogItemsUrl = "data/categories/";
-        var catalogItemsTitleHtml = "snippets/Product__Title.html";
-        var catalogItemHtml = "snippets/Product__Item.html";
+        var catalogItemsTitleHtml = "snippets/item-title-snippet.html";
+        var catalogItemHtml = "snippets/item-snipet.html";
 
         var insertHtml = function (selector, html) {
             var targetElem = document.querySelector(selector);

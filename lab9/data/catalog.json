@@ -3,28 +3,28 @@
     "id": 1,
     "short_name": "A",
     "name": "Category-1",
-    "special_instructions": "Some important info",
+    "special_instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "url": "data/categories/A.json"
   },
   {
     "id": 2,
     "short_name": "B",
     "name": "Category-2",
-    "special_instructions": "Some important info",
+    "special_instructions": "Fusce mattis tempor sodales. In consectetur justo laoreet quam aliquam, id commodo nunc tempus.",
     "url": "data/categories/B.json"
   },
   {
     "id": 3,
     "short_name": "C",
     "name": "Category-3",
-    "special_instructions": "Some important info",
+    "special_instructions": "Suspendisse fringilla vehicula accumsan. Pellentesque laoreet vestibulum quam nec sollicitudin.",
     "url": "data/categories/C.json"
   },
   {
     "id": 4,
     "short_name": "D",
     "name": "Category-4",
-    "special_instructions": "Some important info",
+    "special_instructions": "Proin id velit ex. Sed id fermentum magna.",
     "url": "data/categories/D.json"
   }
 ]

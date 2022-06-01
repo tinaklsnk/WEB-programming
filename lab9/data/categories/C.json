@@ -2,36 +2,36 @@
   "catalog_items": [
     {
       "id": 11,
-      "short_name": "C-1",
-      "name": "Item C-1",
-      "description": "One",
-      "price": 120
+      "short_name": "1",
+      "name": "Item 1",
+      "description": "In sed ante ultrices, pellentesque purus in, lacinia erat.",
+      "price": 100
     },
     {
       "id": 12,
-      "short_name": "C-2",
-      "name": "Item C-2",
-      "description": "Two",
-      "price": 725
+      "short_name": "2",
+      "name": "Item 2",
+      "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. ",
+      "price": 200
     },
     {
       "id": 13,
-      "short_name": "C-3",
-      "name": "Item C-3",
-      "description": "Three",
-      "price": 455
+      "short_name": "3",
+      "name": "Item 3",
+      "description": "Nullam non semper ante. In accumsan vehicula mi, ac pretium odio porttitor a. ",
+      "price": 300
     },
     {
       "id": 14,
-      "short_name": "C-4",
-      "name": "Item C-4",
-      "description": "Four",
-      "price": 505
+      "short_name": "4",
+      "name": "Item 4",
+      "description": "Nunc in ex elit. Fusce malesuada felis eget tortor laoreet, eu efficitur nulla iaculis. ",
+      "price": 400
     }
   ],
   "category": {
     "short_name": "C",
-    "name": "Category-3",
-    "special_instructions": "Some important info Categories-3"
+    "name": "Category 3",
+    "special_instructions": "Aliquam et ex blandit, tempor neque et, volutpat nisl. Aliquam erat volutpat. In finibus quam in sem pretium, vel tincidunt nulla egestas. Ut sit amet lorem eget justo ornare sollicitudin quis id orci. "
   }
 }
