@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "shortname": "1",
+    "name": "Категорія 1",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in sem vel orci dignissim accumsan nec nec erat. Aenean ornare mauris vitae purus pharetra rutrum.",
+    "url": "db/categories/A/A.json"
+  },
+  {
+  "id": 2,
+  "shortname": "2",
+  "name": "Категорія 2",
+  "notes": "Nam ultricies lectus sed ante lobortis fringilla. Nunc eleifend orci nec sollicitudin condimentum. ",
+  "url": "db/categories/B/B.json"
+  },
+  {
+  "id": 3,
+  "shortname": "3",
+  "name": "Категорія 3",
+  "notes": "Morbi sit amet tincidunt orci, eget dictum lectus. Etiam at imperdiet neque.",
+  "url": "db/categories/C/C.json"
+  }
+]
